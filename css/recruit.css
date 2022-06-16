@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+.her1 .d1 {height:100%; background: url("../images/recruit_bg.jpg") no-repeat center; background-size:cover; }
+.her1 .tilt　{ font-size: 6em;}
+
+.part1 {width: 100%; margin: 0 auto; padding-bottom: 100px;}
+.part1 .bt1 {width: 80%;}
+
+.bt2 {width: 30%; height:auto; margin: 0 auto; position: relative;}
+.bt2 .sp1 {width:50%; padding-top: 10%; display: block;}
+.bt2 .sp2 {width:24%; position: absolute; top: 0; right: 0; display: block;}
+.bt2 .sp1 img,.bt2 .sp2 img {width: 100%;}
+.bt2  h3 {min-width: 30%; padding:5px 40px; font-size:3em; background: #000000; color: #fff; position: absolute; top: 50%; left: 25%; text-align: center;
+	-webkit-clip-path:polygon(0 0,100% 0,80% 100%,0% 100%);
+	clip-path:polygon(7% 0,100% 0,93% 100%,0 100%); 
+}
+.bt2  h6 {width: 100%; font-size: 2em; font-weight: normal; position: absolute; top: 30%; text-align: center;}
+
+.part1 .p1 {width: 80%; margin: 20px auto; padding: 15px 20px; background: #F7F7F7; position: relative; vertical-align:middle;  /*flex 布局*/display: flex;/*实现垂直居中*/align-items: center; text-indent: inherit;}
+.part1 p {width: 80%; margin: 0 auto;}
+.part1 p span {height: auto; padding: 10px 20px; margin-right: 30px; color: #fff; background: #00e8ff;}
+.part1 ul {width: 80%; margin: 50px auto; vertical-align:middle;  /*flex 布局*/display: flex;/*实现垂直居中*/align-items: center; }
+.part1 ul li {width: 30.333333%; margin: 0 1.5%;}
+.part1 ul li img {width: 100%;}
+
+.part2 {width: 100%; margin: 0 auto; padding-bottom: 100px;}
+.part2 .bt1 {width: 80%;}
+.part2 p {width: 100%; margin: 20px auto;}
+.part2 article {width: 80%; margin: 0 auto;}
+.part2 ul {width: 80%; margin: 50px auto; vertical-align:middle;  /*flex 布局*/display: flex;/*实现垂直居中*/align-items: center; }
+.part2 ul li {width: 30.333333%; margin: 0 1.5%;}
+.part2 ul li img {width: 100%;}
+
+
+.part3 {width: 100%; margin: 0 auto; padding-bottom: 100px;}
+.part3 .bt1 {width: 80%;}
+table {width: 80%; margin: 0 auto;}
+table tr {border-bottom: 1px solid #E8E8E8;}
+table th {width: 35%; padding: 30px 0;}
+table td {width: 65%; padding: 30px 0;}
+
+@media screen and (max-width:768px){
+h5 {font-size: 1.4em;}
+.part1 {width: 100%; margin: 0 auto; padding-bottom: 30px;}
+.part2 {width: 100%; margin: 0 auto; padding-bottom: 30px;}
+.part2 ul {vertical-align:middle;  /*flex 布局*/display: flex;/*实现垂直居中*/align-items: center; }
+.part2 ul li {width: 30.333333%; margin: 0 1.5%;}
+.part2 ul li img {width: 100%;}
+
+}

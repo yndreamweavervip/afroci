@@ -1,0 +1,97 @@
+/**
+ * PgwMenu - Version 1.0
+ *
+ * Copyright 2014, Jonathan M. Piat
+ * http://pgwjs.com - http://pagawa.com
+ *
+ * Released under the GNU GPLv3 license - http://opensource.org/licenses/gpl-3.0
+ */
+.pgwMenu {
+  background: #fff;
+  height: 60px;
+  position: relative;
+  list-style: none
+}
+.pgwMenu.light {
+  background: #d5d5d5
+}
+.pgwMenu ul {
+  list-style: none;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0
+}
+.pgwMenu ul.mobile {
+  background: #fff;
+  box-shadow: 2px 2px 4px #777;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 1000
+}
+.pgwMenu.light ul.mobile {
+  background: #d5d5d5
+}
+.pgwMenu ul.mobile li {
+  display: block;
+  clear: both;
+  width: 100%;
+	background: #FAFAFA;
+}
+.pgwMenu li {
+  float: left;
+}
+.pgwMenu a {
+  display: block;
+  color: #000;
+  line-height: 90px;
+  text-decoration: none;
+	border-bottom: 1px #DEDEDE;
+	padding: 0 12px;
+}
+.pgwMenu.light a {
+  color: #000
+}
+.pgwMenu a.selected {
+  background: #000
+}
+.pgwMenu.light a.selected {
+  background: #000
+}
+.pgwMenu li a:hover {
+  background: #ff8457; color: #fff;
+}
+.pgwMenu.light li a:hover {
+  background: #f3f3f3
+}
+.pgwMenu .pmDropDown {
+  display: none
+}
+.pgwMenu .pmDropDown a {
+  display: inline-block;
+  background: #fff
+}
+.pgwMenu .pmDropDown a.active {
+  background: #E8E8E8;
+}
+.pgwMenu.light .pmDropDown a {
+  background: #c5c5c5
+}
+.pgwMenu.light .pmDropDown a.active {
+  background: #bbb
+}
+.pgwMenu .pmDropDown span.icon, .pgwMenu .pmDropDown span.white {
+  background: url(
+	  data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvgAADr4B6kKxwAAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAABpSURBVEhL7ZPLCcAwDEM9jefI/ks1Hyj2QbiGSLcKHggl8sEktjTc/WGyZxo6YKAbrFzFoav3/hdhmsrlijBN5XJFmKZyuSJMU7lcsfV/kIN0FRJgyACGDGDIAIYMpK8CHt6iG6xZhY0JIJ+6AHGbUFsAAAAASUVORK5CYII=) no-repeat;
+  display: block;
+  height: 22px;
+  width: 22px;
+  margin: 19px 8px;
+}
+.pgwMenu.light .pmDropDown span.icon, .pgwMenu .pmDropDown span.black {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABZ0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMDvo9WkAAABKSURBVEhL7ZOxDQAwCMN6O4/T0tmjsxHJDB4yROJ0dz3s1BRHEi2OTREBpQFKA5QGKA3m7IP8RKeIgNIApQFKA5QGc/ZBfkJTdF0oUafLBAFNbAAAAABJRU5ErkJggg==) no-repeat;
+  display: block;
+  height: 22px;
+  width: 22px;
+  margin: 9px 5px;
+}

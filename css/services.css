@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.her1 .d1 {height:100%; background: url("../images/services_bg.jpg") no-repeat center; background-size:cover; }
+.her1 .tilt　{ font-size: 6em;}
+
+.part1 {width:100%; margin: 0 auto 10%;  position: relative; border-bottom: 1px solid #DCDCDC;}
+.part1 .bt1 {width: 80%; margin: 0 auto; position: relative;}
+.part1 .p1 {width:80%; margin: 100px auto;}
+.part1 ul { position: relative;}
+.part1 ul li { margin-bottom: 100px; vertical-align:middle;  /*flex 布局*/display: flex;/*实现垂直居中*/align-items: center;}
+.part1 ul li img {min-width: 368px;}
+.part1 ul .li1,.part1 ul .li3 {width:90%;background: #00e8ff; margin-left: 10%;}
+.part1 ul .li1 img,.part1 ul .li3 img {width: 30%; margin-right: 5%;}
+.part1 ul li p {width: 55%; float: right; margin-right: 10%; color: #000000;}
+
+.part1 ul .li2 {width:90%; background: #ff8457; margin-right: 10%;}
+.part1 ul .li2 img {width: 30%; margin-right: 0%;}
+.part1 ul .li2 p {width: 55%; margin-left: 10%; color: #fff; float: left;}
+.part1 ul .mb {display: none;}
+
+/*
+.part1 ul .li2 {width:90%; background: #ff8457; margin-right: 10%; vertical-align:middle;  display: flex; align-items: center;}
+.part1 ul .li2 img {width: 30%; margin-left: 5%;}
+.part1 ul .li2 p {width: 55%; color: #fff; float:left; padding-left: 10%;}
+ */
+.part2 {width:80%; margin: 0 10%;  position: relative;}
+.part2 ul {width: 100%; position: relative;}
+.part2 ul li {width: 40%; height: 550px; margin: 0 5% 50px; float: left; background: #f5f5f5; position: relative;}
+.part2 ul li h5 {position: absolute; top: 20px; left: -20px; background: #000; color: #fff; padding: 10px 40px; font-size: 1.5em;}
+.part2 ul li img {width: 100%;}
+.part2 ul li p {padding: 50px;}
+
+.part3 {width:100%;  position: relative; border-top: 1px solid #DCDCDC; margin-top: 100px; padding-top: 100px;}
+.part3 .bt1 {width: 80%; margin: 0 auto; position: relative;}
+.part3 ul li {width: 100%; margin: 90px 0; position: relative;}
+.part3 ul li article {width: 80%; margin: 0 auto; position: relative; vertical-align:middle; /*flex 布局*/display: flex;/*实现垂直居中*/align-items: center;}
+.part3 ul li h5 {padding: 10px 30px; position: absolute; bottom: 20px; left: 20px; background: #000; color: #fff; font-size: 1em;	
+	-webkit-clip-path:polygon(0 0,100% 0,80% 100%,0% 100%);
+	clip-path:polygon(5.5% 0,100% 0,95% 100%,0 100%); 
+}
+.part3 ul li div {width:26%; position: relative; }
+.part3 ul li div img {width: 100%;}
+.part3 ul li p {width: 60%; padding-left: 4%; text-align: center;}
+.part3 ul .li2 {padding: 50px 0; background: #F5F5F5;}
+.part3 ul .li2 h5 {left: 20px;}
+.part3 ul .li2 p {padding-left: 0%; padding-right: 4%; }
+
+@media screen and (max-width:768px){
+.part1 .bt1 {width: 80%; margin: 0 auto 20%; position: relative;}
+.part1 .p1 {width:80%; margin: 50px auto;}
+
+.part1 ul .pc {display: none;}
+.part1 ul .mb {display: block;}
+.part1 ul .li1,.part1 ul .li3 {width:100%;background: #00e8ff; margin-left: 0%;}
+.part1 ul li { margin-bottom: 0px; vertical-align:block; /*flex 布局*/display:block;/*实现垂直居中*/align-items: block;}
+.part1 ul .li1 img,.part1 ul .li2 img,.part1 ul .li3 img {width: 100%; margin-right: 0%; margin-left: 0;}
+.part1 ul li p {width: 80%; padding: 40px 10%; float:none; margin:0; color: #000000;}
+.part1 ul .li2 {width:100%; background: #ff8457; margin-right: 10%;}
+.part1 ul .li2 img {width: 100%; margin-right: 0%;}
+.part1 ul .li2 p {width: 80%; margin-left: 0%; color: #fff; float: none;}
+
+.part2 ul li {width: 100%; height: auto; margin: 0 0 40px; float: none; background: #f5f5f5; position: relative;}
+.part2 ul li h5 {position: absolute; top: 20px; left: -20px; background: #000; color: #fff; padding: 10px 40px; font-size: 1.2em;}
+.part2 ul li img {width: 100%;}
+.part2 ul li p {padding: 25px;}
+
+.part3 {width:100%;  position: relative; border-top: 1px solid #DCDCDC; margin-top: 10%; padding-top: 5%;}
+.part3 .bt1 {width: 80%; margin: 0 auto 90px; position: relative;}
+.part3 ul li {width: 100%; margin: 45px 0 ; position: relative;}
+.part3 ul li article {width: 80%; margin: 0 auto; position: relative; vertical-align:block; /*flex 布局*/display: block;/*实现垂直居中*/align-items: block;}
+.part3 ul li h5 {padding: 10px 30px; position: absolute; bottom: 20px; left: 20px; background: #000; color: #fff; font-size: 1em;	
+	-webkit-clip-path:polygon(0 0,100% 0,80% 100%,0% 100%);
+	clip-path:polygon(5.5% 0,100% 0,95% 100%,0 100%); 
+}
+.part3 ul li div {width:100%; position: relative;}
+.part3 ul li div img {width: 100%; margin-bottom: 20px;}
+.part3 ul li p {width: 100%; padding-left: 0%; text-align: center;}
+.part3 ul .li2 {padding: 50px 0; background: #F5F5F5;}
+.part3 ul .li2 h5 {left: 20px;}
+.part3 ul .li2 p {padding-left: 0%; padding-right: 4%; }
+
+}

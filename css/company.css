@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.her1 .d1 {height:100%; background: url("../images/company_bg.jpg") no-repeat center; background-size:cover; }
+.her1 .tilt　{ font-size: 6em;}
+
+.part1 {width: 100%; margin: 0 auto; padding-bottom: 100px;}
+.part1 .bt1 {width: 80%; }
+.part1 table {width: 70%; margin-left: 30%;}
+.part1 table th {width: 30%; padding: 20px 0;}
+.part1 table td {width: 70%; padding: 20px 0; color: #595959;}
+.part1 table .tr1 {background: #f5f5f5;}
+
+.part2 {width: 100%; margin: 0 auto; padding-bottom: 100px;}
+.part2 .bt1 {width: 80%;}
+.part2 table {width: 70%; margin-right: 30%;}
+.part2 table th {width: 40%; padding: 20px 0;}
+.part2 table td {width: 60%; padding: 20px 0; color: #595959;}
+.part2 table .tr1 {background: #f5f5f5;}
+
+.part3 {width: 80%; padding: 100px 0; margin: 0 auto; border-bottom: 1px solid #E1E1E1;}
+.part3 ul {width:70%; height: 200px;; float: right; vertical-align:middle;  /*flex 布局*/display: flex;/*实现垂直居中*/align-items: center; text-align: center;}
+.part3 ul li {width: 50%; float: right;}
+
+.part4 {width: 80%; padding: 100px 0; margin: 0 auto;}
+.part4 .bt2 {float: right;}
+.part4 ul {width:70%; height: 300px; float: right; vertical-align:middle;  /*flex 布局*/display: flex;/*实现垂直居中*/align-items: center; text-align: center;}
+.part4 ul li {width: 45%; text-align: left;}
+
+.bt2 {width: 30%; height:auto; position: relative; float: left;}
+.bt2 .sp1 {width:50%; padding-top: 10%; display: block;}
+.bt2 .sp2 {width:24%; position: absolute; top: 0; right: 0; display: block;}
+.bt2 .sp1 img,.bt2 .sp2 img {width: 100%;}
+.bt2  h3 {min-width: 30%; padding:5px 40px; font-size:1.5em; background: #000000; color: #fff; position: absolute; top: 50%; left: 25%; text-align: center;
+	-webkit-clip-path:polygon(0 0,100% 0,80% 100%,0% 100%);
+	clip-path:polygon(7% 0,100% 0,93% 100%,0 100%); 
+}
+.bt2  h6 {width: 100%; font-size: 1em; font-weight: normal; position: absolute; top: 30%; text-align: center;}
+
+.part4 {width: 80%; margin: 0 auto;}
+
+@media screen and (max-width:768px){
+.part1 {width: 100%; margin: 0 auto; padding-bottom: 50px;}
+.part1 table {width: 100%; margin-left: 0%; padding-top: 50px;}
+
+.part2 {width: 100%; margin: 0 auto; padding-bottom: 50px;}
+.part2 .bt1 {width: 80%;}
+.part2 table {width: 100%; margin-left: 0%; padding-top: 50px;}
+	
+.bt2 {width: 70%; height:auto; margin: 0 auto 50px; position: relative; float: none;}
+.bt2 .sp1 {width:50%; padding-top: 10%; display: block;}
+.bt2 .sp2 {width:24%; position: absolute; top: 0; right: 0; display: block;}
+.bt2 .sp1 img,.bt2 .sp2 img {width: 100%;}
+.bt2  h3 {min-width: 30%; padding:5px 40px; font-size:1.1em; background: #000000; color: #fff; position: absolute; top: 50%; left: 25%; text-align: center;
+	-webkit-clip-path:polygon(0 0,100% 0,80% 100%,0% 100%);
+	clip-path:polygon(7% 0,100% 0,93% 100%,0 100%); 
+}
+.bt2  h6 {width: 100%; font-size: 1em; font-weight: normal; position: absolute; top: 30%; text-align: center;}
+.part3 {width: 80%; padding: 40px 0; margin: 0 auto; border-bottom: 1px solid #E1E1E1;}
+.part3 ul {width:100%; height: auto; margin: 0 auto;vertical-align:block;  /*flex 布局*/display: block;/*实现垂直居中*/align-items: block; text-align: center;}
+.part3 ul li {width: 100%; padding: 20px 0; float: none; text-align: center;}
+
+.part4 {width: 80%; padding: 40px 0; margin: 0 auto;}
+.part4 .bt2 {float: none;}
+.part4 ul {width:100%; height:auto; margin: 0 auto;float: none; vertical-align:block;  /*flex 布局*/display: block;/*实现垂直居中*/align-items: block; text-align: center;}
+.part4 ul li {width: 100%; padding: 20px 0; float: none; text-align:center;}
+
+}

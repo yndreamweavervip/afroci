@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+iframe {display: none;}
+.part1 {width:90%; height:887px; margin-top: -5%; padding-left:10%; background: #FFFFFF;position: relative;}
+.part1 article {width: 60%; height: 500px; float: left; margin-top: 250px;}
+.part1 article h3 {width:51%;font-size: 3.6em; color: #37cddc; float: left;}
+.part1 article h6 {width:51%;font-size:1em; color: #9ec2c5; float: left;}
+.part1 article p {width:51%; float: left; line-height: 42px; font-size: 1.2em; margin-top: 90px;}
+.part1 article img {width:44%; max-width: 400px; float: right; padding-left: 5%;}
+.part1 main {width:40%; height: 887px; float: right; background-color:#423334; }
+.part1 main div {width: 100%;}
+
+.part2 {position: relative;}
+.part2 article {width:100%; height: 500px; }
+.part2 main {width: 80%; height: 650px; padding: 0 10%; position: relative; background: #FFFFFF;}
+.part2 main h3 {font-size: 3.75em; position: absolute; position: absolute; top: -180px; right: 10%; text-align: right; color:white;}
+.part2 main h6 {font-size:1em; position: absolute; position: absolute; top: -100px; right: 10%; text-align: right; color:white;}
+.part2 main div {width:38%; max-width:548px; position: absolute; top: -400px; left: 10%;}
+.part2 main p {width:45%; max-width: 550px; font-size: 1.2em; padding-top: 100px; padding-left: 13%;  line-height: 42px;}
+.part2 main img {width:30%; max-width: 477px; position: absolute; top: 100px; right: 10%;}
+.part2 main a {width: 330px; height: 60px; line-height: 60px; background:#000000; margin-top: 86px;}
+.part2 main div img {width: 100%;}
+.part2 a{color:#fff; display: block; background: #00cce0; text-align: center;}
+.part2 a:link,.part2 a:visited,.part2 a:active{text-decoration:none; background: #00cce0;}
+.part2 a:hover{color:#fff;text-decoration:none; background: #ff8457;}
+
+.part3 {position: relative;}
+.part3 article {width:100%; height: 500px;}
+.part3 main {width: 80%; padding: 0 10% 50px; position: relative; background: #FFFFFF;}
+.part3 main h3 {font-size: 3.75em; position: absolute; position: absolute; top: -180px; left: 10%; text-align:left; color:white;}
+.part3 main h6 {font-size:1em; position: absolute; position: absolute; top: -100px; left: 10%; text-align: left; color:white;}
+.part3 main div {width:39.7%; max-width:603px; position: absolute; top: -290px; right: 10%;}
+.part3 main div img {width: 100%;}
+.part3 main ul {padding-top: 125px;}
+.part3 main ul li {line-height: inherit; min-height: 301px; padding-bottom: 100px; position: relative;}
+.part3 main ul li img {width:50%; max-width:512px; float: right; margin-left: 60px;}
+.part3 main ul li h5,.part3 main ul li p{text-align: left;}
+.part3 main ul li h5 {padding-bottom: 30px; text-align: right;}
+.part3 main ul li p {font-size: 1.125em;}
+.part3 main ul .li2 h5 {text-align: left;}
+.part3 main ul .li2 img {float: left; margin: 0 60px 0 0;}
+.part3 main a {width: 330px; height: 60px; line-height: 60px; background:#000000;  margin: 0 auto; margin-bottom: 50px;}
+.part3 a{width: 20%; line-height: 30px; color:#fff; display: block; background: #00cce0; text-align: center;}
+.part3 a:link,.part3 a:visited,.part3 a:active{text-decoration:none; background: #00cce0;}
+.part3 a:hover{color:#fff;text-decoration:none; background: #ff8457;}
+
+.part4 {position: relative;}
+.part4 article {width:100%; height: 500px;}
+.part4 main {width: 80%; padding: 0 10%; position: relative;}
+.part4 main h3 {font-size: 3.75em; position: absolute; position: absolute; top: -180px; right: 10%; text-align:left; color:white;}
+.part4 main h6 {font-size:1em; position: absolute; position: absolute; top: -100px; right: 10%; text-align: left; color:white;}
+.part4 main div {width: 44.54%; max-width: 523px;  position: absolute; top: -430px; left: 10%;}
+.part4 main div img {width: 100%;}
+.part4 .wrapper {width:100%; padding-top: 200px; padding-bottom: 200px; background: #FFFFFF;}
+.part4 .wrapper p{text-indent: 0;}
+
+@media screen and (max-width:768px){
+iframe {display: block;}
+video {display: none;}
+
+.part1 {width:80%;height:auto; padding-left:10%; padding-right: 10%; padding-bottom: 5em; background: #FFFFFF;position: relative;}
+.part1 article {width: 100%; height: auto; float:none; margin-top: 0em;}
+.part1 article h3 {width:100%;font-size: 2em; color: #37cddc; float: left; text-align: center;}
+.part1 article h6 {width:100%;font-size: 0.7em; color: #9ec2c5; float: left; text-align: center;}
+.part1 article p {width:60%; height: auto; float:left; line-height: 1.6em; font-size: 0.875em; margin-top: 3em;}
+.part1 article img {width:37%; height: auto;  float:right; padding-left: 3%; margin-top: 4em;}
+.part1 main {width:70%; margin: 4em auto 1em; height: auto; float:none; background-color:#423334; }
+.part1 main div {width: 100%;}
+.part1 main div img{width:100%;}
+	
+.part2 {height:auto;position: relative;}
+.part2 article {width:100%; height:200px;}
+.part2 main {width: 80%; height: auto; padding: 0 10% 5em; position: relative; background: #FFFFFF;}
+.part2 main h3 {width:50%; font-size: 2em; line-height: 1em; position: absolute; position: absolute; top: -120px; right: 10%; text-align: right; color:white;}
+.part2 main h6 {font-size:1em; position: absolute; position: absolute; top: -40px; right: 10%; text-align: right; color:white;}
+.part2 main div {width:40%; max-width:548px; position: absolute; top: -250px; left: 10%;}
+.part2 main p {width:60%; max-width: 550px;  padding-top: 5em; padding-left: 0%;font-size: 0.875em; line-height: 1.6em;}
+.part2 main img {width:27%; position: absolute; top: 100px; right: 10%;}
+.part2 main a {width: 100%; margin: 0 auto; height: 30px; line-height: 30px; background:#000000; margin-top: 2em;}
+.part2 main div img {width: 100%;}
+
+.part3 {position: relative;}
+.part3 article {width:100%; height: 200px;}
+.part3 main {width: 80%; padding: 0 10% 50px; position: relative; background: #FFFFFF;}
+.part3 main h3 {font-size: 2em; position: absolute; position: absolute; top: -90px; left: 10%; text-align:left; color:white;}
+.part3 main h6 {font-size: 1em; position: absolute; position: absolute; top: -40px; left: 10%; text-align: left; color:white;}
+.part3 main div {width:45%; max-width:603px; position: absolute; top: -135px; right: 5%;}
+.part3 main div img {width: 100%;}
+.part3 main ul {padding-top: 100px;}
+.part3 main ul li {line-height: inherit; min-height: 301px; padding-bottom: 3em; position: relative;}
+.part3 main ul li img {width:70%; max-width:512px; float:none; margin: 0 15%;}
+.part3 main ul li h5,.part3 main ul li p{text-align:left;}
+.part3 main ul li h5 {font-size: 1.5em; padding: 1em 0; text-align: center;}
+.part3 main ul li p {font-size: 0.875em; line-height: 1.6em;}
+.part3 main ul .li2 h5 {font-size: 1.5em; padding: 1em 0; text-align: center;}
+.part3 main ul .li2 img {float: none; margin: 0 15%;}
+.part3 main a {width: 330px; height: 50px; line-height: 50px; background:#000000;  margin: 0 auto; margin-bottom: 50px;}
+.part3 a{width: 20%; line-height: 30px; color:#fff; display: block; background: #00cce0; text-align: center;}
+.part3 a:link,.part3 a:visited,.part3 a:active{text-decoration:none; background: #00cce0;}
+.part3 a:hover{color:#fff;text-decoration:none; background: #ff8457;}
+
+.part4 {position: relative;}
+.part4 article {width:100%; height: 200px;}
+.part4 main {width: 80%; padding: 0 10%; position: relative;}
+.part4 main h3 {font-size: 2em; position: absolute; position: absolute; top: -90px; right: 10%; text-align:left; color:white;}
+.part4 main h6 {font-size:1em; position: absolute; position: absolute; top: -40px; right: 10%; text-align: left; color:white;}
+.part4 main div {width: 50%; max-width: 673px;  position: absolute; top: -170px; left: 10%;}
+.part4 main div img {width: 100%;}
+.part4 .wrapper {width:100%; padding-top: 3em; padding-bottom: 5em; background: #FFFFFF;}
+.part4 .wrapper p{text-indent: 0;}
+}
+	
+	

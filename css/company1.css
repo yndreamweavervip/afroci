@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.her1 .d1 {height:100%; background: url("../images/company1_bg.jpg") no-repeat center; background-size:cover;}
+.her1 .tilt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: tilting 10s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+	font-size: 6em;
+	font-style:italic;
+}
+.part1 .bt1  h3 {min-width: 250px; padding:5px 40px; font-size:2.3em; background: #000000; color: #fff; position: absolute; top: 170px; left: 25%; text-align: center;
+	-webkit-clip-path:polygon(0 0,100% 0,80% 100%,0% 100%);
+	clip-path:polygon(2.5% 0,100% 0,97.5% 100%,0 100%); 
+}
+
+.part1 {width: 100%; margin: 0 auto; padding-bottom: 100px;}
+.part1 .bt1 {width: 80%; }
+.part1 ul {width: 80%; margin: 0 auto; position: relative;}
+.part1 ul li {width: 27%; height: 350px; margin: 50px 3.166666% 0; float: left; background: #f5f5f5; position: relative;}
+.part1 ul li h5 {position: absolute; top: 20px; left: -20px; background: #000; color: #fff; padding: 10px 40px; font-size: 1.5em;}
+.part1 ul li img {width: 100%;}
+.part1 ul li p {padding: 50px;}
+
+.part2 {width: 100%; margin: 0 auto; padding-bottom: 100px;}
+.part2 .bt1 {width: 80%;}
+.part2 .p1 {width: 80%; margin: 20px auto; padding: 15px 20px; background: #F7F7F7; position: relative; vertical-align:middle;  /*flex 布局*/display: flex;/*实现垂直居中*/align-items: center; text-indent: inherit;}
+.part2 h5 {text-align: center; margin-top: 80px;}
+.part2 p {width: 80%; margin: 0 auto;}
+.part2 p span {height: auto; padding: 10px 20px; margin-right: 30px; color: #fff; background: #00e8ff;}
+.part2 ul {width: 80%; margin: 50px auto; vertical-align:middle;  /*flex 布局*/display: flex;/*实现垂直居中*/align-items: center; }
+.part2 ul li {width: 30.333333%; margin: 0 1.5%;}
+.part2 ul li img {width: 100%;}
+
+.bt2  h6 {width: 100%; font-size: 1em; font-weight: normal; position: absolute; top: 30%; text-align: center;}
+
+.part3 {width: 100%; margin: 0 auto;}
+.part3 .bt1 {width: 80%;}
+.part3 ul li {width: 100%; margin: 90px 0; position: relative;}
+.part3 ul li article {width: 80%; margin: 0 auto; position: relative; vertical-align:middle; /*flex 布局*/display: flex;/*实现垂直居中*/align-items: center;}
+.part3 ul li h5 {padding: 10px 30px; position: absolute; bottom: 20px; left: 20px; background: #000; color: #fff; font-size: 1em;	
+	-webkit-clip-path:polygon(0 0,100% 0,80% 100%,0% 100%);
+	clip-path:polygon(5.5% 0,100% 0,95% 100%,0 100%); 
+}
+.part3 ul li div {width:26%; position: relative;}
+.part3 ul li div img {width: 100%;}
+.part3 ul li p {width: 60%; padding-left: 4%; text-align: center;}
+.part3 ul .li2 {padding: 50px 0; background: #F5F5F5;}
+.part3 ul .li2 h5 {left: 20px;}
+.part3 ul .li2 p {padding-left: 0%; padding-right: 4%;}
+
+.part4 {margin-bottom: 50px;}
+.part4 .bt1 {width: 80%; margin: 0 auto;}
+.part4 .bt1  h3 {min-width: 250px; padding:5px 40px; font-size:2.2em; background: #000000; color: #fff; position: absolute; top: 170px; left: 25%; text-align: center;
+	-webkit-clip-path:polygon(0 0,100% 0,80% 100%,0% 100%);
+	clip-path:polygon(3.5% 0,100% 0,96.5% 100%,0 100%); 
+}
+.part4 table {width: 50%; margin: 100px 25% 20px;}
+.part4 table th { padding: 20px; text-align: left; border-bottom: 1px solid #fff; border-right: 1px solid #fff;}
+.part4 table td { padding: 20px; border-bottom: 1px solid #fff; border-right: 1px solid #fff;}
+.part4 table .tr1 {background: #f5f5f5;}
+.part4 p {width: 80%; margin: 0 auto 100px; text-indent: 0; text-align: center; font-size: 2em;}
+.part4 p img {width: 100%;}
+
+@media screen and (max-width:768px){
+.part1 .bt1 h3 {min-width: 100px; padding:5px 20px; font-size:1em; background: #000000; color: #fff; position: absolute; top: 85px; left: 12.5%; text-align: center;
+	-webkit-clip-path:polygon(0 0,100% 0,80% 100%,0% 100%);
+	clip-path:polygon(4% 0,100% 0,96% 100%,0 100%); }
+	
+.her1 .tilt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: tilting 10s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+	font-size: 1.8em;
+		font-style:italic;}
+	
+.part1 ul li {width: 100%; height: auto; margin: 0 0 40px; float: none; background: #f5f5f5; position: relative;}
+.part1 ul li h5 {position: absolute; top: 20px; left: -20px; background: #000; color: #fff; padding: 10px 40px; font-size: 1.2em;}
+.part1 ul li img {width: 100%;}
+.part1 ul li p {padding: 25px;}
+
+.part1,.part2,.part3,.part4 {padding-bottom: 0;}
+	
+	.part3 ul li {width: 100%; margin: 45px 0 ; position: relative;}
+.part3 ul li article {width: 80%; margin: 0 auto; position: relative; vertical-align:block; /*flex 布局*/display: block;/*实现垂直居中*/align-items: block;}
+.part3 ul li h5 {padding: 10px 30px; position: absolute; bottom: 20px; left: 20px; background: #000; color: #fff; font-size: 1em;	
+	-webkit-clip-path:polygon(0 0,100% 0,80% 100%,0% 100%);
+	clip-path:polygon(5.5% 0,100% 0,95% 100%,0 100%); 
+}
+.part3 ul li div {width:100%; position: relative;}
+.part3 ul li div img {width: 70%; margin-bottom: 20px; margin: 0 15%;}
+.part3 ul li p {width: 100%; padding-left: 0%; text-align: center;}
+.part3 ul .li2 {padding: 50px 0; background: #F5F5F5;}
+.part3 ul .li2 h5 {left: 20px;}
+.part3 ul .li2 p {padding-left: 0%; padding-right: 4%; }
+
+.part4 .bt1 h3 {min-width: 100px; padding:5px 20px; font-size:0.9em; background: #000000; color: #fff; position: absolute; top: 85px; left: 12.5%; text-align: center;
+	-webkit-clip-path:polygon(0 0,100% 0,80% 100%,0% 100%);
+	clip-path:polygon(4% 0,100% 0,96% 100%,0 100%); }
+
+.part4 table {width: 80%; margin: 70px 10% 20px;}
+.part4 table th { padding: 5px; text-align: left; border-bottom: 1px solid #fff; border-right: 1px solid #fff;}
+.part4 table td { padding: 5px; border-bottom: 1px solid #fff; border-right: 1px solid #fff;}
+.part4 table .tr1 {background: #f5f5f5;}
+.part4 p {width: 80%; margin: 0 auto 50px; text-indent: 0; text-align: center; font-size: 1em;}
+.part4 p img {width: 100%;}
+
+}
+
+
+@media screen and (max-width:1366px){
+	
+	.tilt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: tilting 10s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+	font-size: 4em;
+	font-style:italic;
+}
+header section p {font-size:2em; text-align: center;}
+
+	
+}
+

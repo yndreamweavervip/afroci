@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+body {background:url("../images/privacy_bg.jpg") no-repeat center; background-attachment: fixed; background-size: cover;}
+p,ul {font-size: 1em;}
+.her1  {width: 100%; height:auto; position: relative; margin-bottom: 5%;}
+.her1 .tilt　{ font-size: 6em;}
+
+.part1 {width: 100%; margin: 100px auto 0; padding-bottom: 50px;}
+.part1 .bt1 {width: 80%; }
+.part1 p {width: 80%; margin: 0 auto;}
+.part1 p span {height: auto; padding: 10px 20px; margin-right: 30px; color: #fff; background: #00e8ff;}
+.part1 ul {width: 80%; margin: 100px auto; vertical-align:middle;  /*flex 布局*/display: flex;/*实现垂直居中*/ }
+.part1 ul li {width: 30.333333%; margin: 0 1.5%; text-align: center; line-height:2em;}
+.part1 ul li h6 {font-size: 1.125em;}
+.part1 ul li img {width: 75px; height: 75px; margin-bottom: 15px;}
+
+.part2 {width:100%; margin: 0 auto;}
+.part2 ul {width: 50%; margin: 0 auto;}
+.part2 div {width: 100%;}
+.part2 ul input {width:100%; margin: 15px 0; line-height: 45px; text-indent: 1em; border: 1px solid #EDEDED;}
+.part2 ul textarea {width:calc(100% - 30px); height: 150px; margin: 15px 0; padding: 15px; border: 1px solid #EDEDED;}
+.part2 ul li .in1 {width: 55%; font-size: 0.6em; line-height: 60px; margin: 50px 22.5%; color: #fff;  background-image: linear-gradient(90deg,#00e8ff,#ff8457); border-radius: 100px;}
+.gm1 {width:100%; height:500px;}
+
+@media screen and (max-width:768px){
+.part1 {width: 100%; margin: 50px auto 0; padding-bottom: 0px;}
+.part1 ul {width: 80%; margin: 100px auto; vertical-align:block;  /*flex 布局*/display: block;/*实现垂直居中*/ }
+.part1 ul li {width: 100%; margin: 0 0 30px; text-align: center; line-height:2em;}
+.part2 ul {width: 80%; margin: 0 auto; padding-bottom: 50px;}
+.part2 ul li .in1 {width: 100%; line-height: 50px; font-size:0.6rem; margin: 50px 0%;  color: #fff;  clip-path:block;}
+
+.gm1 {width:100%; height:300px;}
+}
